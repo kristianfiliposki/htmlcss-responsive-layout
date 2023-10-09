@@ -62,11 +62,18 @@ font-family: 'Fjalla One', sans-serif;
 
 @media only screen and (min-width:768px){
 
+
+    section .imgs{
+        width: 30%;
+    }
+
     #benefits>.card-b{
         width: calc((100% / 4) - 1em);
         margin-top: 10%;
 
     }
+
+
 
 }
 
