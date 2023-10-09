@@ -1,0 +1,75 @@
+*{
+font-family: 'Croissant One', cursive;
+font-family: 'Dela Gothic One', cursive;
+font-family: 'Fjalla One', sans-serif;
+}
+
+.big-container{
+    min-height: 55vh;
+    border-radius: 20px;
+}
+
+.container{
+    min-height: 30vh;
+    border-radius: 20px;
+}
+
+@media only screen and (min-width: 768px){
+    
+    .jambo{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .jambo .card{
+        width:calc((100% / 3) - 15px);
+    }
+
+    .jambo>#cardA{
+        width: 65%;
+    }
+
+
+    #benefits{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #benefits h2{
+        width: 100%;
+        text-align: center;
+    }
+
+    #benefits .card-b{
+        width: 43%;
+        margin: 3%;
+        margin-top: 10%;
+
+    }
+
+    #profil{
+        flex-direction: row;
+        justify-content:space-around;
+        align-items: flex-start;
+    }
+
+    #img-profil,#description-profil{
+        margin-left: 3em;
+    }
+
+}
+
+@media only screen and (min-width:768px){
+
+    #benefits>.card-b{
+        width: calc((100% / 4) - 1em);
+        margin-top: 10%;
+
+    }
+
+}
+
+
+
+
