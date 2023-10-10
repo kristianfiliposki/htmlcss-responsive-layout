@@ -161,6 +161,7 @@
 .c-dodgerblue {color: dodgerblue; }
 .c-pink {color: pink; }
 .c-red {color: red; }
+.c-orange {color: orange; }
 .c-darkred {color: darkred; }
 .c-green {color: green; }
 .c-violet {color: violet; }
@@ -168,7 +169,7 @@
 .c-lightcoral {color: lightcoral; }
 .c-forestgreen { background-color: forestgreen; }
 .c-aquamarine {color: aquamarine; }
-.c-darkslategray {color: darkslategray; }
+.c-darkgray {color: darkgray; }
 .c-lightgray {color: lightgray; }
 .c-grey {color: grey; }
 .c-white {color: white; }
@@ -183,6 +184,7 @@
 .f-16{font-size: 16px;}
 .f-24{font-size: 24px;}
 .f-32{font-size: 32px;}
+.f-48{font-size: 48px;}
 .f-64{font-size: 64px;}
 /*** FONT-SIZE ***/
 

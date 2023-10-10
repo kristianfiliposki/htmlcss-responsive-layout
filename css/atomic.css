@@ -1,30 +1,61 @@
+:root{
+   --primary-color:#9792E4;
+   --secondary-color:#B5DDFF;
+   --third-color:#0084FD;
+  
+}
+
+.primary{
+    background-color: var(--primary-color)}
+
+.bg-jambo{background-color: var(--third-color)}
+.c-jambo{color: var(--third-color)}
+
+
 *{
-font-family: 'Croissant One', cursive;
-font-family: 'Dela Gothic One', cursive;
-font-family: 'Fjalla One', sans-serif;
+font-family: sans-serif;
 }
 
 .big-container{
     min-height: 50vh;
-    border-radius: 20px;
 }
 
-.container{
-    min-height: 30vh;
-    border-radius: 20px;
-}
 
-#img-p-A{
-    background-image:url(../responsive-layout-materiale-completo/img/testimonial1.jpg);
+.border-buttom{border-radius: 22px;}
+
+/* profili */
+.img-profil{
     background-size: cover;
     background-position: center;
     aspect-ratio: 1 / 1;
-    
 }
 
-#testimonials img,.img-p{
+.img-profil{
     border-radius: 100%;
 }
+
+#img-profil-A{ 
+background-image:url(../responsive-layout-materiale-completo/img/testimonial1.jpg);
+}
+
+#img-profil-B{ 
+background-image:url(../responsive-layout-materiale-completo/img/testimonial2.jpg);
+}
+
+#img-profil-C{ 
+background-image:url(../responsive-layout-materiale-completo/img/testimonial3.jpg);
+}
+/* profili */
+
+
+/* benefits */
+#benefits h2{
+    width: 100%;
+    text-align: center;
+}
+
+.benefits-title{font-size: 2em;}
+
 
 .h-display{
     display: inline-block;
@@ -77,6 +108,7 @@ font-family: 'Fjalla One', sans-serif;
         text-align: center;
     }
 
+
     #benefits .card-b{
         width: 43%;
         margin: 3%;
@@ -84,13 +116,13 @@ font-family: 'Fjalla One', sans-serif;
 
     }
 
-    #profil{
+    #user{
         justify-content:space-around;
         align-items: flex-start;
     }
 
-    #img-profil,
-    #description-profil{
+    
+    .description-user{
         margin-left: 3em;
     }
 
