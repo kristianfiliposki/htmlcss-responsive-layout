@@ -14,6 +14,14 @@ font-family: 'Fjalla One', sans-serif;
     border-radius: 20px;
 }
 
+#img-p-A{
+    background-image:url(../responsive-layout-materiale-completo/img/testimonial1.jpg);
+    background-size: cover;
+    background-position: center;
+    aspect-ratio: 1 / 1;
+    
+}
+
 #testimonials img,.img-p{
     border-radius: 100%;
 }
