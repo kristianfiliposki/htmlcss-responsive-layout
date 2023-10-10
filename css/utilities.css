@@ -153,11 +153,11 @@
 .bg-nome { background-color: nome; }
 
 /*** BACKGROUND COLORS ***/
+.c-lilla{color:rgb(159, 90, 253); }
 .c-lightblue {color: lightblue; }
 .c-goldenrod {color: goldenrod; }
 .c-darkblue {color: darkblue; }
 .c-blue {color: blue; }
-
 .c-dodgerblue {color: dodgerblue; }
 .c-pink {color: pink; }
 .c-red {color: red; }

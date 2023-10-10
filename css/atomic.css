@@ -5,7 +5,7 @@ font-family: 'Fjalla One', sans-serif;
 }
 
 .big-container{
-    min-height: 55vh;
+    min-height: 50vh;
     border-radius: 20px;
 }
 
@@ -14,11 +14,45 @@ font-family: 'Fjalla One', sans-serif;
     border-radius: 20px;
 }
 
-@media only screen and (min-width: 768px){
+#testimonials img,.img-p{
+    border-radius: 100%;
+}
+
+.h-display{
+    display: inline-block;
+}
+
+
+.c-code,#strategic-section,#testimonials{
     
-    .jambo{
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px){
+    .h-display{display: none;}
+    
+    section .imgs{
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 768px){
+   
+    #bars{
+        display:none;
+    }
+   
+    #benefits,
+    #strategic-section,
+    #profili,
+    #testimonials .card,
+    .jambo,
+    .jambo>#cardA{
         display: flex;
         flex-direction: row;
+    }
+
+    .jambo,#benefits{
         flex-wrap: wrap;
     }
 
@@ -28,12 +62,6 @@ font-family: 'Fjalla One', sans-serif;
 
     .jambo>#cardA{
         width: 65%;
-    }
-
-
-    #benefits{
-        flex-direction: row;
-        flex-wrap: wrap;
     }
 
     #benefits h2{
@@ -49,12 +77,12 @@ font-family: 'Fjalla One', sans-serif;
     }
 
     #profil{
-        flex-direction: row;
         justify-content:space-around;
         align-items: flex-start;
     }
 
-    #img-profil,#description-profil{
+    #img-profil,
+    #description-profil{
         margin-left: 3em;
     }
 
@@ -64,12 +92,12 @@ font-family: 'Fjalla One', sans-serif;
 
 
     section .imgs{
-        width: 30%;
+        width: 70%;
     }
 
     #benefits>.card-b{
-        width: calc((100% / 4) - 1em);
-        margin-top: 10%;
+        width: calc((100% / 3) - 12%);
+        margin: 6%;
 
     }
 
