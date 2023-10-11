@@ -34,6 +34,7 @@ font-family: sans-serif;
     border-radius: 100%;
 }
 
+
 #img-profil-A{ 
 background-image:url(../responsive-layout-materiale-completo/img/testimonial1.jpg);
 }
@@ -47,6 +48,10 @@ background-image:url(../responsive-layout-materiale-completo/img/testimonial3.jp
 }
 /* profili */
 
+.virgolette{
+    left:22%;
+    color: var(--primary-color);
+}
 
 /* benefits */
 #benefits h2{
@@ -66,6 +71,7 @@ background-image:url(../responsive-layout-materiale-completo/img/testimonial3.jp
     
     text-align: center;
 }
+
 
 @media only screen and (max-width: 768px){
     .h-display{display: none;}
@@ -125,6 +131,7 @@ background-image:url(../responsive-layout-materiale-completo/img/testimonial3.jp
     .description-user{
         margin-left: 3em;
     }
+
 
 }
 
